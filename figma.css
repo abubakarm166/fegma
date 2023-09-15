@@ -152,7 +152,7 @@ border-radius: 8px;
 	background-color: #FF585D;
 }
 .red{
-	width: 1440px;
+	width: 90em;
 	height: 365px;
 	background-color:#F65355 ;
 	margin-top: 84px;
@@ -1023,10 +1023,10 @@ border: 1px solid blue;
 	height: 458px;
 }*/
 .imgg img{
-	margin-top: -10px;
-	margin-left: -40px;
-	width:220px ;
-	height: 220px;
+	margin-top: -0.625em;
+	margin-left: -2.5em;
+	width:13.75em ;
+	height: 13.75em;
 }
 .texxt{
 	width: 186px;
