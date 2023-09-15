@@ -9,6 +9,7 @@ body{
 	padding: 0px;
 	box-sizing: border-box;
 background: white;
+overflow-x: hidden;
 
 }
 .first
@@ -38,30 +39,32 @@ nav{
 
 .nav1{
 
-margin-left:601px;
+margin-left:501px;
 	width: 70px;
 height: 24px;
-
+font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 	/*margin-top: 41px;
 
 
 	*/
+font-size: 16px;
 	color: #616161;
 	text-decoration: none;
 
 }
 .nav2{
-	
-	margin-left: 23px;
-    
+	font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif  ;
+	margin-left: 33px;
+    font-size: 16px;
     width: 70px;
 height: 24px;
 color: #616161;
 	text-decoration: none;
 }
-.nav3{
+.nav3{font-size: 16px;
+	font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif  ;
 	margin-top: 41px;
-	margin-left: 30px;
+	margin-left: 40px;
 
     width: 70px;
 height: 24px;
@@ -69,8 +72,14 @@ color: #616161;
 	text-decoration: none;
 }
 .login{
-
-	margin-left: 9px;
+	font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif  ;
+font-size: 15px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0em;
+text-align:center;
+color: #FF585D;
+	margin-left: 19px;
 	width: 107px;
 	height:39px ;
 	
@@ -80,7 +89,16 @@ color: #616161;
 }
 
 .sign{
-	margin-left: 34px;
+	color: white;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif  ;
+font-size: 14px;
+
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0em;
+text-align:center;
+
+	margin-left: 44px;
 	width: 184px;
 	height:39px ;
 margin-top: -10px;
@@ -124,7 +142,7 @@ border-radius: 8px;
 
 }
 .texxt-co{
-	font-family: Poppins;
+	font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 font-size: 33px;
 font-weight: 700;
 line-height: 51px;
@@ -133,15 +151,18 @@ text-align: left;
 
 }
 .texxt-p{
-	font-family: Poppins;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 font-size: 18px;
 font-weight: 400;
 line-height: 29px;
 letter-spacing: 0em;
 text-align: left;
+width: 461px;
 
 }
 .texxt-b{
+	margin-top: 10px;
+	color: white;
 	width: 206px;
 height: 41px;
 top: 15px;
@@ -152,44 +173,61 @@ border-radius: 8px;
 	background-color: #FF585D;
 }
 .red{
-	width: 90em;
+	width: 100%;
 	height: 365px;
 	background-color:#F65355 ;
 	margin-top: 84px;
 	padding-top: 54px;
-
-
+	align-items: center;
+	justify-content: center;
+/*
+justify-content: center;
+align-items: center;
+*/
 }
 .red-p{
 	width: 899px;
 height: 260px;
 margin-left: 270px;
+
 color: white;
+
 
 }
 h1.h1{
-	font-family: Poppins;
+	width: 397px;
+	height: 48px;
+	font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 font-size: 32px;
 font-weight: 700;
 line-height: 48px;
 letter-spacing: 0em;
 text-align: center;
+margin-left: 251px;
+
 
 }
 .para1{
-	font-family: Poppins;
+	width: 506px;
+	height: 33px;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 font-size: 22px;
 font-weight: 600;
 line-height: 33px;
 letter-spacing: 0em;
 text-align:center;
+margin-left: 199px;
+}
+.zor{
 
 }
 .para2{
-	font-family: Poppins;
+	width: 879px;
+	height: 155px;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 font-size: 18px;
-font-weight: 400;
-line-height: 31px;
+font-weight: 500;
+line-height: 31.05px;
 letter-spacing: 0em;
 text-align: center;
 
@@ -238,7 +276,7 @@ height: 74px;
 
 	width: 214px;
 height: 27px;
-font-family: Poppins;
+font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 font-size: 18px;
 font-weight: 600;
 line-height: 27px;
@@ -251,7 +289,7 @@ text-align: left;
 	width: 287px;
 height: 48px;
 color:  #656565;
-font-family: Poppins;
+font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 font-size: 14px;
 font-weight: 400;
 line-height: 24px;
@@ -273,6 +311,16 @@ border-radius: 12px;
 
 
 }
+.rec-h21{
+	color: #7B57D2;
+	font-family: Arial Narrow, sans-serif ;
+font-size: 18px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+width: 214px;
+}
 .icon2{
 	background:url("Rectangle 16.png");
 align-items: center;
@@ -285,6 +333,7 @@ margin-right: 27px;
 
 
 }
+
 .icon2 img{
 	
 	margin-top: 15px;
@@ -294,7 +343,7 @@ margin-right: 27px;
 	width: 287px;
 height: 48px;
 color:  #656565;
-font-family: Poppins;
+font-family:Arial Narrow, sans-serif ;
 font-size: 14px;
 font-weight: 400;
 line-height: 24px;
@@ -309,7 +358,7 @@ text-align: left;
 
 	width: 214px;
 height: 27px;
-font-family: Poppins;
+font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 font-size: 18px;
 font-weight: 600;
 line-height: 27px;
@@ -353,7 +402,7 @@ margin-right: 27px;
 	width: 287px;
 height: 48px;
 color:  #656565;
-font-family: Poppins;
+font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 font-size: 14px;
 font-weight: 400;
 line-height: 24px;
@@ -364,14 +413,12 @@ text-align: left;
 }
 .rec-h32{
 	color: #FF585D;
-
-
-
-	width: 214px;
+width: 100%;
 height: 27px;
-font-family: Poppins;
+font-family:Noto Sans, sans-serif  ;
 font-size: 18px;
 font-weight: 600;
+word-spacing: 0px;
 line-height: 27px;
 letter-spacing: 0em;
 text-align: left;
@@ -460,7 +507,7 @@ h1.action{
 height: 45px;
 top: 1879px;
 left: 806px;
-font-family: Poppins;
+font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 font-size: 30px;
 font-weight: 600;
 line-height: 45px;
@@ -474,7 +521,7 @@ width: 426px;
 height: 64px;
 top: 1936px;
 left: 806px;
-font-family: Poppins;
+font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 font-size: 18px;
 font-weight: 500;
 line-height: 32px;
@@ -518,7 +565,7 @@ h1.ph1{
 height: 49px;
 top: 2439px;
 margin-left: 52px;
-font-family: Poppins;
+font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 font-size: 28px;
 font-weight: 600;
 line-height: 49px;
@@ -535,7 +582,7 @@ p.pp{
 height: 204px;
 top: 2488px;
 margin-left: 52px;
-font-family: Poppins;
+font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 font-size: 15px;
 font-weight: 400;
 line-height: 34px;
@@ -565,7 +612,7 @@ margin-left: 331px;
 h1.umr
 {
 margin-left:225px ;
-font-family: Poppins;
+font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif  ;
 font-size: 30px;
 font-weight: 600;
 line-height: 68px;
@@ -576,7 +623,7 @@ text-align: left;
 }
 p.hsn{
 	margin-top: ;
-	font-family: Poppins;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 font-size: 16px;
 font-weight: 500;
 line-height: 29px;
@@ -607,7 +654,7 @@ text-align: center;
 height: 45px;
 margin-top: -370px;
 
-font-family: Poppins;
+font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 font-size: 20px;
 font-weight: 600;
 line-height: 45px;
@@ -620,7 +667,7 @@ text-align: left;
 height: 78px;
 
 
-font-family: Poppins;
+font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 font-size: 15px;
 font-weight: 500;
 line-height: 26px;
@@ -644,7 +691,7 @@ background:url("Rectangle 27.png");
 height: 45px;
 margin-left:90px ;
 margin-top: -370px;
-font-family: Poppins;
+font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 font-size: 20px;
 font-weight: 600;
 line-height: 45px;
@@ -657,7 +704,7 @@ text-align: left;
 height: 78px;
 
 margin-left: 90px;
-font-family: Poppins;
+font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 font-size: 15px;
 font-weight: 500;
 line-height: 26px;
@@ -683,7 +730,7 @@ h1.hn{
 height: 45px;
 margin-left:90px ;
 margin-top: -370px;
-font-family: Poppins;
+font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 font-size: 20px;
 font-weight: 600;
 line-height: 45px;
@@ -696,7 +743,7 @@ height: 78px;
 
 
 margin-left: 90px;
-font-family: Poppins;
+font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 font-size: 15px;
 font-weight: 500;
 line-height: 26px;
@@ -722,7 +769,7 @@ justify-content: center;
 height: 80px;
 top: 3833px;
 margin-left: 318px;
-font-family: Poppins;
+font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 font-size: 20px;
 font-weight: 600;
 line-height: 40px;
@@ -730,29 +777,60 @@ letter-spacing: 0em;
 text-align: center;
 padding-top: 88px;
 }
-
-input{
-	margin-top: 123px;
-	width: 605px;
+button.emi{
+	font-family: Poppins;
+font-size: 18px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: center;
+background-color: #F95151;
+margin-left: -5px;
+color: white;
 height: 64px;
-border: 1px solid red;
-margin-left: 405px;
+width: 205px;
 border-radius: 0px 10px 10px 0px;
+
+}
+
+input.emia{
+	margin-top: 123px;
+	/*padding-left: 20px;*/
+	width: 400px;
+	color: red;
+font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
+font-size: 16px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0em;
+text-align:left;
+padding-left: 22px;
+border: 1px solid red;
+border-radius: 10px 0px 0px 10px;
+
+height: 64px;
+margin-left: 405px;
 border: 1px solid red;
 
 }
 
+.info h1.havy{
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
+	Weight:600;
+font-size:30px;
 
+Align:Center;
+}
 .info{
 	display: flex;
 	flex-direction: row;
-	gap: 300px;
+	gap: 430px;
 	margin-left: 85px;
 	margin-top: 200px;
-	font-family: Poppins;
+	font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 font-size: 30px;
 font-weight: 600;
-line-height: 55px;
+/*line-height: 55px;*/
 letter-spacing: 0em;
 text-align: center;
 
@@ -774,12 +852,18 @@ form {
 form input{
 width: 420px;
 height: 54px;
-border: 1px solid red;
+/*border: 1px solid;*/
+/*border-color: #F37373;*/
 border-radius: 12px;
 	margin-left: 85px;
 	margin-top: 22px;
-	color: red;
+	color: #F37373;
 
+}
+input.ini{
+padding-left: 10px;
+border: 1px solid;
+border-color: #F37373;
 }
 textarea{
 	font-size: 20px;
@@ -787,7 +871,7 @@ textarea{
 	width: 420px;
 	height: 100px;
 	border-radius: 12px;
-	border: 1px solid red;
+	border: 1px solid #F37373;
 	margin-left: 85px;
 	margin-top: 22px;
 }
@@ -808,7 +892,7 @@ ul.last{
 }
 
 h4{
-	font-family: Poppins;
+	font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 font-size: 16px;
 font-weight: 500;
 line-height: 32px;
@@ -817,6 +901,7 @@ text-align: center;
 
 
 }
+
 .loc{
 display: flex;
 flex-direction: row;
