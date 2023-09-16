@@ -9,6 +9,7 @@ body{
 	padding: 0px;
 	box-sizing: border-box;
 background: white;
+overflow-x: hidden;
 
 
 }
@@ -986,6 +987,7 @@ border: 1px;
 	padding: 0px;
 	box-sizing: border-box;
 background:white;
+overflow-x: hidden;
 
 }
 .first
