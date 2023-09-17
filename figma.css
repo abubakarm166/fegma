@@ -10,8 +10,6 @@ body{
 	box-sizing: border-box;
 background: white;
 overflow-x: hidden;
-
-
 }
 .first
 {
@@ -30,27 +28,20 @@ margin-top: 41px;
 }
 nav{
 	margin-left: 95px;
-	
-	width: 86.805555556%;
+	/*margin-right: 85px;*/
+	width: 100%;
 
 
 }
-
-
-
 .nav1{
-
-margin-left:43.6%;
-	width: 5.6%;
+margin-left:35.6%;
+width: 5.6%;
 height: 24px;
 font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
-	/*margin-top: 41px;
-
-
-	*/
+/*margin-top: 41px;*/
 font-size: 16px;
-	color: #616161;
-	text-decoration: none;
+color: #616161;
+text-decoration: none;
 
 }
 .nav2{
@@ -98,15 +89,14 @@ font-weight: 500;
 line-height: 21px;
 letter-spacing: 0em;
 text-align:center;
-
-	margin-left: 44px;
-	width:14.72%;
-	height:39px ;
+margin-right: 6.472222222%;
+margin-left: 44px;
+width:14.72%;
+height:39px ;
 margin-top: -10px;
-
-	background:#FF585D;
-	border: 1px solid #FF585D;
-	border-radius: 7px;
+background:#FF585D;
+border: 1px solid #FF585D;
+border-radius: 7px;
 }
 .second{
 	width: 88.33%;
