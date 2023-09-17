@@ -9,7 +9,7 @@ body{
 	padding: 0px;
 	box-sizing: border-box;
 background: white;
-overflow-x: hidden;
+/*overflow-x: hidden;*/
 }
 .first
 {
@@ -209,7 +209,7 @@ margin-left: 199px;
 
 }
 .para2{
-	width: 97.7%;
+	width: 100%;
 	height: 155px;
 	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 font-size: 18px;
@@ -624,12 +624,11 @@ text-align: center;
 }
 .thee{
 	width: 1225px;
-	height:200px ;
-	
-	margin-top: 65px;
-	margin-left: 85px;
-	display: flex;
-	flex-direction: row;
+	height:200px;
+	margin-top:65px;
+	margin-left:85px;
+	display:flex;
+	flex-direction:row;
 }
 .one{
 	width: 299px;
@@ -991,8 +990,8 @@ border: 1px;
 	padding: 0px;
 	box-sizing: border-box;
 background:white;
-overflow-x: hidden;
-
+/*overflow-x: hidden;
+*/
 }
 .first
 {
@@ -1011,8 +1010,8 @@ margin-top: 21px;
 }
 nav{
 
-	margin-left: 4.67%;
-	
+	/*margin-left: 4.67%;
+*/	
 	width: 86.85%;
 
 
@@ -1069,8 +1068,8 @@ overflow: hidden;
 
 .second{
 	width:369px;
-  
-margin-left:35px ;
+  margin-left: 4.67%;
+
 margin-top: 21px;
 	
 	/*margin-left: 95px;*/
@@ -1160,18 +1159,18 @@ border-radius: 8px;
 	background-color: #FF585D;
 }
 .red{
-	width: 100%;
+	width: 428px;
 	height: 195px;
 	background-color:#F65355 ;
 	margin-top: 84px;
-	
+	margin-left: 0px;
 
 
 }
 .red-p{
 	width: 267px;
 height: 160px;
-margin-left: 19.35%;
+margin-left: 15.35%;
 color: white;
 margin-top: -20px;
 
@@ -1224,7 +1223,7 @@ margin-top: 54px;
 .sqr1{
 display: flex;
 flex-direction: column;
-margin-left: 11px;
+margin-left: -11px;
 /*background-color: #F9F9F9;*/
 
 
@@ -1437,12 +1436,19 @@ z-index: ;
 .dis{
 	
 	margin-top: 0px;
-	margin-left: 50px;
-	width:569px;
+	margin-left: -320px;
+	width:100%;
 height:393px;
 
 border-radius: 11px;
 
+}
+.imog img{
+margin-top: 200px;
+
+	margin-left: -100px;
+width:130px ;
+height:130px ;
 }
 .dis img{
 	height: 177px;
@@ -1465,6 +1471,7 @@ margin-left: 30px;
 
 }
 .pic{
+
 	display: none;
 }
 .picc{
@@ -1475,37 +1482,39 @@ margin-left: 30px;
 
 .iimmg img{
 	margin-top: 0px;
-margin-left: 120px;
+margin-left: 150px;
 	width: 50px;
 	height: 50px;
 
    
 }
+/*
 .iimog img{
 	margin-top: 10px;
 width: 150px;
 height: 145px;
 margin-left: 20px;
 
-}
+}*/
 
 .ddots{
 	opacity: 50%;
-margin-top: 0px;
+margin-top: 100px;
 	width: 80px;
 
 	
 object-fit: ;
 }
 .ddots img{
-	
-	width: 80px;
+	height:2px ;
+
+	width: 50px;
 margin-top:-350px ;
 
 }
 .ddots .first-img {
 	z-index: -1;
-margin-top: -60px;	
+margin-top: -30px;	
 
 }
 .lat{
@@ -1515,7 +1524,7 @@ margin-top: -60px;
 .urg{
 	height: 150px;
 	width: ;
-	margin-left: 60px;
+	margin-left: 30px;
 	margin-top:-250px ;
 }
 h1.action{
@@ -1615,7 +1624,7 @@ border-radius: 11px;
 	
 height: 155px;
 margin-top: 66px;
-margin-left: 95px;
+margin-left: 75px;
 margin-bottom: -50px;
 
 
@@ -1651,22 +1660,22 @@ text-align: center;
 	height:100px ;
 	margin-bottom: 50px;
 	margin-top: -15px;
-	margin-left: 15px;
+	margin-left: 55px;
 	display: flex;
 	flex-direction: row;
 }
 .one{
-	width:30%;
 	
-	/*width: 102px;*/
+	width: 102px;
 	text-align: left;
     height: 220px;
+    margin-right: 20px;
 
 }
 .one img{
 	width: 40px;
 	height: 40px;
-	margin-left: -100px;
+	margin-left: 0px;
 	margin-top: 10px;
 }
 .hone{
@@ -1699,6 +1708,7 @@ text-align: left;
 .two{
 	width: 30%;
 	margin-left:-10px;
+	margin-right: 10px;
 
 }
 .tw0 .img {
@@ -1710,7 +1720,7 @@ background:url("Rectangle 27.png");
 }
 .two .img img{
 	margin-top: 10px;
-margin-left: -90px;
+margin-left: 0px;
 	width: 40px ;
 	height: 40px;
 }
@@ -1851,7 +1861,7 @@ margin-top: -5px;
 	display: flex;
 	flex-direction: row;
 	gap:50px;
-	margin-left: -10px;
+	margin-left: -30px;
 	margin-top: 50px;
 	
 
@@ -1871,6 +1881,7 @@ text-align: center;
 	margin-top: -10px;
 	display: flex;
 flex-direction: row;
+margin-left: -25px;
 
 }
 .from img{
@@ -1912,6 +1923,7 @@ textarea{
 	flex-direction: row;
 	gap: 200px;
 	margin-top: 50px;
+	margin-left: -25px;
 }
 ul.last{
 	list-style: none;
@@ -1919,7 +1931,7 @@ ul.last{
 .end-li{
 	display: flex;
 	flex-direction: column;
-	gap: 2px;
+	gap: 0px;
 	
 }
 
@@ -1975,16 +1987,28 @@ height: 9px;
 
 
 }
-button.endu{width:200px;
+button.endu{width:180px;
 height: 25px;
 margin-top: -20px;
 border: 1px;
-	background-color:#EC6565;
-	color: white;
-	border: none;
-	border-radius: 12px;
-	margin-left: 20px;
+background-color:#EC6565;
+color: white;
+border: none;
+border-radius: 12px;
+margin-left: 20px;
+margin-right: -40px;
 }
+
+
+
+
+
+
+
+
+
+
+
 @media(min-width:1400px){
     .manage_container{
         max-width: 1100px;
