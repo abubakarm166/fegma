@@ -1162,8 +1162,8 @@ border-radius: 8px;
 	width: 428px;
 	height: 195px;
 	background-color:#F65355 ;
-	margin-top: 84px;
-	margin-left: 0px;
+	margin-top: 54px;
+	margin-left: -20px;
 
 
 }
@@ -1189,7 +1189,7 @@ text-align: center;
 }
 .para1{
 	width:80%;
-	font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
+	font-family:Avantgarde, TeX Gyre Adventor, URW Got1440hic L, sans-serif ;
 font-size: 9px;
 font-weight: 600;
 line-height: 38px;
@@ -1197,7 +1197,7 @@ letter-spacing: 0em;
 
 margin-left: 35px;
 
-
+1440
 }
 .para2{
 	margin-left: -10px;
@@ -1289,7 +1289,7 @@ p.rec-para2{
 	width: 120px;
 height: 28px;
 color:  #656565;
-	font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
+	fo1440nt-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
 font-size: 6px;
 font-weight: 400;
 line-height: 10px;
@@ -1397,6 +1397,7 @@ margin-right: 10px;
 p.rec-para{
 	width: 125px;
 height: 48px;
+
 margin-top: 5px;
 color:  #656565;
 	font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif ;
@@ -1471,7 +1472,6 @@ margin-left: 30px;
 
 }
 .pic{
-
 	display: none;
 }
 .picc{
@@ -1564,7 +1564,7 @@ li.liun{
 	background-color: #F8EDFF;
 	height:130px ;
 	width: 359px;
-	margin-left: 20px;
+	margin-left: 0px;
 	margin-top: -10px;
 	border-radius: 22px;
 	display: flex;
@@ -1881,7 +1881,7 @@ text-align: center;
 	margin-top: -10px;
 	display: flex;
 flex-direction: row;
-margin-left: -25px;
+margin-left: -20px;
 
 }
 .from img{
