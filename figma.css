@@ -9,7 +9,7 @@ body{
 	padding: 0px;
 	box-sizing: border-box;
 background: white;
-/*overflow-x: hidden;*/
+overflow-x: hidden;
 }
 .first
 {
@@ -990,8 +990,8 @@ border: 1px;
 	padding: 0px;
 	box-sizing: border-box;
 background:white;
-/*overflow-x: hidden;
-*/
+overflow-x: hidden;
+
 }
 .first
 {
@@ -1052,7 +1052,7 @@ font-size: 10px;
 	
 	background: white;
 	border: 1px solid #FF585D;
-	border-radius: 7px;
+	border-radius: 4px;
 }
 
 .sign{
@@ -1063,12 +1063,12 @@ font-size: 10px;
 overflow: hidden;
 	background:#FF585D;
 	border: 1px solid #FF585D;
-	border-radius: 7px;
+	border-radius: 4px;
 }
 
 .second{
 	width:369px;
-  margin-left: 4.67%;
+  margin-left: 0.67%;
 
 margin-top: 21px;
 	
@@ -1154,7 +1154,7 @@ text-align: left;
 height: 21px;
 
 border: none;
-border-radius: 8px;
+border-radius: 5px;
 
 	background-color: #FF585D;
 }
@@ -1660,7 +1660,7 @@ text-align: center;
 	height:100px ;
 	margin-bottom: 50px;
 	margin-top: -15px;
-	margin-left: 55px;
+	margin-left: 8.67%;
 	display: flex;
 	flex-direction: row;
 }
@@ -1797,7 +1797,7 @@ text-align: left;
 	background-color:#F9D8D8 ;
 	width: 359px;
 height: 120px;
-margin-left: 20px;
+margin-left: 1.67%;
 border-radius: 21.2px;
 
 align-items: center;
@@ -1861,7 +1861,7 @@ margin-top: -5px;
 	display: flex;
 	flex-direction: row;
 	gap:50px;
-	margin-left: -30px;
+	margin-left: -40px;
 	margin-top: 50px;
 	
 
@@ -1876,12 +1876,12 @@ margin-top: -5px;
 
 text-align: center;
 }
-.from{.info
+.from{
 	width: 428px;
 	margin-top: -10px;
 	display: flex;
 flex-direction: row;
-margin-left: -20px;
+margin-left: -35px;
 
 }
 .from img{
