@@ -1068,7 +1068,7 @@ overflow: hidden;
 
 .second{
 	width:369px;
-  margin-left: 0.67%;
+  margin-left: 4.67%;
 
 margin-top: 21px;
 	
@@ -1660,7 +1660,7 @@ text-align: center;
 	height:100px ;
 	margin-bottom: 50px;
 	margin-top: -15px;
-	margin-left: 8.67%;
+	margin-left: 55px;
 	display: flex;
 	flex-direction: row;
 }
@@ -1797,7 +1797,7 @@ text-align: left;
 	background-color:#F9D8D8 ;
 	width: 359px;
 height: 120px;
-margin-left: 1.67%;
+margin-left: 20px;
 border-radius: 21.2px;
 
 align-items: center;
@@ -1861,7 +1861,7 @@ margin-top: -5px;
 	display: flex;
 	flex-direction: row;
 	gap:50px;
-	margin-left: -40px;
+	margin-left: -30px;
 	margin-top: 50px;
 	
 
@@ -1876,12 +1876,12 @@ margin-top: -5px;
 
 text-align: center;
 }
-.from{
+.from{.info
 	width: 428px;
 	margin-top: -10px;
 	display: flex;
 flex-direction: row;
-margin-left: -35px;
+margin-left: -20px;
 
 }
 .from img{
